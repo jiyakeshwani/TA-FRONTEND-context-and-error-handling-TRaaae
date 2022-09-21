@@ -1,4 +1,5 @@
 import React from "react";
+import ErrorBoundary from "./ErrorBoundary";
 import Header from "./Header";
 import Main from "./Main";
 
@@ -8,6 +9,7 @@ class App extends React.Component {
     return (
       <>
         <Header isDarkMode={isDarkMode} />
+
         <Main isDarkMode={isDarkMode} />
       </>
     );

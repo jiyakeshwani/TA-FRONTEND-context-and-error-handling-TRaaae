@@ -2,6 +2,7 @@
   "name": "context-theme",
   "version": "0.1.0",
   "dependencies": {
+    "build": "^0.1.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1"
